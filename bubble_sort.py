@@ -1,5 +1,6 @@
 # 버블 정렬 알고리즘 
 list = [8,87,1,5,25,4,9,10]
+def bubble_sort(list):
     cnt = 0
     while 1:
         for i in range(len(list)-1):
